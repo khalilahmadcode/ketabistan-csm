@@ -28,6 +28,25 @@ p {
     font-size: 17px;
 }
 
+/* colors */
+
+$green : #078a4f ;
+$gree_light: #09ad63;
+.bg_green {
+    background-color: $green;
+}
+.btn_green {
+    background-color: $green;
+}
+
+.gree_light {
+    background-color: $gree_light;
+    color: white !important;
+}
+
+
+
+/* Main styling */
 header {
     border-bottom: 1px solid rgb(233, 233, 233);
 }
@@ -70,5 +89,9 @@ footer {
 
             }
         }
+    }
+
+    .img_mobile_60 {
+        width: 60%;
     }
 }

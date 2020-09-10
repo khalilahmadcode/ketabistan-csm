@@ -28,6 +28,21 @@ p {
   font-size: 17px;
 }
 
+/* colors */
+.bg_green {
+  background-color: #078a4f;
+}
+
+.btn_green {
+  background-color: #078a4f;
+}
+
+.gree_light {
+  background-color: #09ad63;
+  color: white !important;
+}
+
+/* Main styling */
 header {
   border-bottom: 1px solid #e9e9e9;
 }
@@ -66,6 +81,9 @@ footer .copy_right {
   }
   footer .container li.header {
     text-align: center;
+  }
+  .img_mobile_60 {
+    width: 60%;
   }
 }
 /*# sourceMappingURL=main.css.map */
